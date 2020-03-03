@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
       end
       if params[:name]
         session[:name] = params[:name]
-        # redirect_to logout_path
+        # redirect_to '/'
       end 
       
   end
